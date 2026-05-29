@@ -16,11 +16,9 @@ export const CodePreview: React.FC<Props> = ({ files, isOpen, onClose }) => {
     if (files.length === 0) return;
 
     const zip = new JSZip();
-    // Place all generated files into a 'migrations' folder inside the zip
-    const migrationsFolder = zip.folder("migrations");
 
     files.forEach(file => {
-      migrationsFolder?.file(file.filename, file.content);
+      zip.file(file.filename, file.content);
     });
 
     try {

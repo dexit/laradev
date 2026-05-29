@@ -62,7 +62,7 @@ const TableNode = ({ id, data }: NodeProps<TableData>) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-xl border border-slate-200 w-[280px] overflow-hidden text-sm flex flex-col">
+    <div className="bg-white rounded-lg shadow-xl border border-slate-200 w-[360px] overflow-hidden text-sm flex flex-col">
       {/* Handles for connections */}
       <Handle type="target" position={Position.Left} className="!bg-slate-400 !w-3 !h-3 -ml-1.5" />
       <Handle type="source" position={Position.Right} className="!bg-slate-400 !w-3 !h-3 -mr-1.5" />
