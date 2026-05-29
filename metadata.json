@@ -1,0 +1,6 @@
+{
+  "name": "Laravel Schema Architect",
+  "description": "A visual database schema designer for Laravel. Design tables, define relationships, and export Artisan migration commands and model code instantly using React Flow and Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
